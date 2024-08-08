@@ -117,7 +117,7 @@ namespace WebApplicationCreative
                     //cmd.Parameters.AddWithValue("@ProductId", txtProductId.Text);
                     cmd.Parameters.AddWithValue("@ProductName", txtProductName.Text);
                     cmd.Parameters.AddWithValue("@ProductDescription", txtProductDescription.Text);
-                    cmd.Parameters.AddWithValue("@CategoryName", DropDownList1Category.SelectedValue);
+                    cmd.Parameters.AddWithValue("@CategoryName", DropDownList1Category.SelectedItem.Text);
                     cmd.Parameters.AddWithValue("@UserName", txtUserName.Text);
                     cmd.Parameters.AddWithValue("@CategoryId",DropDownList1Category.SelectedValue);
 
